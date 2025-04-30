@@ -1,0 +1,2068 @@
+Unity Editor version:    2022.3.59f1 (630718f645a5)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.3.2 (Build 24D81)
+Darwin version:          24.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2022.3.59f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+/Users/oliveswarts/Playground_Scene/Final_Playground_Project
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+51599
+Successfully changed project path to: /Users/oliveswarts/Playground_Scene/Final_Playground_Project
+/Users/oliveswarts/Playground_Scene/Final_Playground_Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8313096256]  Target information:
+
+Player connection [8313096256]  * "[IP] 100.107.30.155 [Port] 0 [Flags] 2 [Guid] 1575025460 [EditorId] 1575025460 [Version] 1048832 [Id] OSXEditor(0,Olives-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8313096256] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8313096256] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 17.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.59f1 (630718f645a5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2022.3.59f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/oliveswarts/Playground_Scene/Final_Playground_Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M3 (high power)
+Metal devices available: 1
+0: Apple M3 (high power)
+Using device Apple M3 (high power)
+Initializing Metal device caps: Apple M3
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2022.3.59f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2022.3.59f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2022.3.59f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56833
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2022.3.59f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000963 seconds.
+- Loaded All Assemblies, in  0.255 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.156 seconds
+Domain Reload Profiling: 411ms
+	BeginReloadAssembly (98ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (98ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (96ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (156ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (120ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (88ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.457 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.351 seconds
+Domain Reload Profiling: 807ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (110ms)
+				TypeCache.ScanAssembly (95ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (352ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
+Launching external process: /Applications/Unity/Hub/Editor/2022.3.59f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4889 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (363.3 KB). Loaded Objects now: 5352.
+Memory consumption went from 203.4 MB to 203.1 MB.
+Total: 3.270791 ms (FindLiveObjects: 0.173542 ms CreateObjectMapping: 0.051333 ms MarkObjects: 2.819375 ms  DeleteObjects: 0.226083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 339226.695908 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab
+  artifactKey: Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab using Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '50d7e946907ddc888587cc34e822bb33') in 0.854079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon04_Brush.brush
+  artifactKey: Guid(dc670a42db363de40a6e6d9f231404ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon04_Brush.brush using Guid(dc670a42db363de40a6e6d9f231404ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fb60b7c54a689d75e46bad059b0078a8') in 0.082733 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/Heather_B.prefab
+  artifactKey: Guid(dd902ff2a6f685041be127af00c09664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/Heather_B.prefab using Guid(dd902ff2a6f685041be127af00c09664) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '84170519284456e9787264445af47d2c') in 0.015907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Plant_BaseColor.tif
+  artifactKey: Guid(2d6f4b0351691d54aadd4f4283b63025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Plant_BaseColor.tif using Guid(2d6f4b0351691d54aadd4f4283b63025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '57993de6bf547c3ed516c31b973e67d6') in 0.021037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.254297 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain09_Heightmap.tiff
+  artifactKey: Guid(c1873143642071347b9e3544696e5d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain09_Heightmap.tiff using Guid(c1873143642071347b9e3544696e5d6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bb11c9899b5f9b449cb24dd3f876477c') in 0.019518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Plateau01_Brush.brush
+  artifactKey: Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Plateau01_Brush.brush using Guid(bb325d04c0ca0dd4a85a78892caa83fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '832e4851a771d2a58b427440aee97a3c') in 0.004981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/GrassDry_A.prefab
+  artifactKey: Guid(9e8508e3025d9c844810b83c5607c09e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/GrassDry_A.prefab using Guid(9e8508e3025d9c844810b83c5607c09e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bdd05bab4abf6f85a33ab609e7223414') in 0.003893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Soil_Rocks_BaseColor.tif
+  artifactKey: Guid(e257fa53a087b404d8579225e1c7cddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Soil_Rocks_BaseColor.tif using Guid(e257fa53a087b404d8579225e1c7cddb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d218b2f138ada5df5c7ec08de05d4cb') in 0.009367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Materials/Fern.asset
+  artifactKey: Guid(405b9ff318b139d478492b258cc6f606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Materials/Fern.asset using Guid(405b9ff318b139d478492b258cc6f606) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b86b021506ddfc4d0e3a466840a7c002') in 0.011546 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/ShaderGraphs/Subgraphs/PipelineSwitch.shadersubgraph
+  artifactKey: Guid(31fa38c326a958b4c85964d5d54981a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/ShaderGraphs/Subgraphs/PipelineSwitch.shadersubgraph using Guid(31fa38c326a958b4c85964d5d54981a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '759a64824e6f9aef2bdb8df56b3303cc') in 0.005530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Snow_BaseColor.tif
+  artifactKey: Guid(ffa01093856b873448237de84289ee85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Snow_BaseColor.tif using Guid(ffa01093856b873448237de84289ee85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2282e255fabc461e38de7fa4a7f56bfb') in 0.008580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.393898 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon02_Heightmap.tif
+  artifactKey: Guid(4fe4d3241d435594b82a72af96e4052d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon02_Heightmap.tif using Guid(4fe4d3241d435594b82a72af96e4052d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f41b6bddfb2dffc7469dfede20f4d8ba') in 0.012793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Black_Sand_TerrainLayer.terrainlayer
+  artifactKey: Guid(ce833e94f7f7eea468b012546444cf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Black_Sand_TerrainLayer.terrainlayer using Guid(ce833e94f7f7eea468b012546444cf0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6a51514a2127c052095d3546e7410f64') in 0.014514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Cracked_Earth02_Heightmap.tif
+  artifactKey: Guid(ce389a44803b703498159190bc7d48af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Cracked_Earth02_Heightmap.tif using Guid(ce389a44803b703498159190bc7d48af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ad3a6b238d3b48420e99a21c0a148fc6') in 0.010529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge02_Brush.brush
+  artifactKey: Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge02_Brush.brush using Guid(5203e2a4f3ccc3548bde5beb3ca4bdc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd07d7019d6bcb3f2958fd9a066bdda00') in 0.010794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Plateau01_Heightmap.tif
+  artifactKey: Guid(626e11c44313fda43a6979c9a04cd12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Plateau01_Heightmap.tif using Guid(626e11c44313fda43a6979c9a04cd12e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd133a3899167bc3b18be72a432ede80d') in 0.005924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Snow_Normal.tif
+  artifactKey: Guid(baca4d94b1d1d8046ab52ce1570a24c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Snow_Normal.tif using Guid(baca4d94b1d1d8046ab52ce1570a24c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5e32d6651c8219d3f7a96a0e9ecddbe6') in 0.008103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Fern_B.asset
+  artifactKey: Guid(2f9d2984488477d498e8d5c61756f557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Fern_B.asset using Guid(2f9d2984488477d498e8d5c61756f557) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c9b6c6eb7ebb93d513741cd8d0a593fc') in 0.002428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.393725 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Volcano02_Heightmap.tif
+  artifactKey: Guid(bd916b355f53ab144901eeb862a0be0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Volcano02_Heightmap.tif using Guid(bd916b355f53ab144901eeb862a0be0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '40ab1c3a6f2771152bc90768bcab13d0') in 0.017521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain04_Heightmap.tif
+  artifactKey: Guid(a1f4f845b9208d64a95cc6177a9b2abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain04_Heightmap.tif using Guid(a1f4f845b9208d64a95cc6177a9b2abc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e893de6956273e3641ef3f8455ad7bb1') in 0.013775 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Materials/GrassDry.asset
+  artifactKey: Guid(0cf15945abe04ad4589592fd3bfcd17b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Materials/GrassDry.asset using Guid(0cf15945abe04ad4589592fd3bfcd17b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '30effd703b76af166fa8d9db63950ba5') in 0.010726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain09_Brush.brush
+  artifactKey: Guid(9159bc656b82f2b4b80e93118991ddc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain09_Brush.brush using Guid(9159bc656b82f2b4b80e93118991ddc7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5adba95b7e0f8f3595a1a467b7965361') in 0.005558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Grass_A_TerrainLayer.terrainlayer
+  artifactKey: Guid(130d104513b29bd44ae9c5b3915f4134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Grass_A_TerrainLayer.terrainlayer using Guid(130d104513b29bd44ae9c5b3915f4134) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98bacf3bd5c1db2518b049c5a7e58ac9') in 0.014781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Fern_Thickness.tif
+  artifactKey: Guid(daa49585c030643489dad5c6e4680dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Fern_Thickness.tif using Guid(daa49585c030643489dad5c6e4680dca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '071c687bf757e31b697bd52c3fd36d96') in 0.006836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/Fern_B.prefab
+  artifactKey: Guid(5e7ace55a7bfd0d4f9ba3c05024e9d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/Fern_B.prefab using Guid(5e7ace55a7bfd0d4f9ba3c05024e9d79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1fe5307cf52d79a19a180b8dd72de387') in 0.004551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.384094 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Black_Sand_BaseColor.tif
+  artifactKey: Guid(0b59c495bf285c442b1b799c94a9f8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Black_Sand_BaseColor.tif using Guid(0b59c495bf285c442b1b799c94a9f8aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f8b06f1276b27e59ffeff4ebe2fe710e') in 0.012520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Black_Sand_Normal.tif
+  artifactKey: Guid(28a478660ea9d9541b2118c5e95cbb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Black_Sand_Normal.tif using Guid(28a478660ea9d9541b2118c5e95cbb4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1d5314a9a7c82f4a1b797608fff8e050') in 0.008148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Bush_A.asset
+  artifactKey: Guid(0c4301a6ce8e5964c8df62a78aca15d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Bush_A.asset using Guid(0c4301a6ce8e5964c8df62a78aca15d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a7e31548b01bde92958bc23f362df618') in 0.001907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Plant_D.asset
+  artifactKey: Guid(6a7e8cd5e1ea8794c838b902529f257c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Plant_D.asset using Guid(6a7e8cd5e1ea8794c838b902529f257c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8d36ade9df2313aae8110665d022fc03') in 0.001918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Materials/Heather.asset
+  artifactKey: Guid(9ef29f7651a5050409fa9822d6d4f941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Materials/Heather.asset using Guid(9ef29f7651a5050409fa9822d6d4f941) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9a5f1a4a10887a322227f0422dcea27f') in 0.012433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Noise_Soft_Brush.brush
+  artifactKey: Guid(cee96a2661edd1040b6f86ac79ab5fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Noise_Soft_Brush.brush using Guid(cee96a2661edd1040b6f86ac79ab5fc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f35d3974d4bd85989486145ca72df89') in 0.004133 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Soil_Rocks_MaskMap.tif
+  artifactKey: Guid(b1c590e575d73224eb6773fd8c1cbb64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Soil_Rocks_MaskMap.tif using Guid(b1c590e575d73224eb6773fd8c1cbb64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7b97670ba9fb2ca168464b9eb960ce3c') in 0.013602 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.402848 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Grass_Dry_TerrainLayer.terrainlayer
+  artifactKey: Guid(0cbb01b61ed524a48a119d81aa262fed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Grass_Dry_TerrainLayer.terrainlayer using Guid(0cbb01b61ed524a48a119d81aa262fed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '32e4310bf0e3caab814f617ea4e427a5') in 0.020051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridgeedge01_Brush.brush
+  artifactKey: Guid(b47c02079aebe594a94e62b833a0616b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridgeedge01_Brush.brush using Guid(b47c02079aebe594a94e62b833a0616b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e14df38ba459c1991e5b6c57aa3dc82') in 0.005291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_Soil_Normal.tif
+  artifactKey: Guid(b5fff5575723f4a40bfa0f147cb9c27f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_Soil_Normal.tif using Guid(b5fff5575723f4a40bfa0f147cb9c27f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd749bd0445e79617658e9a7e1dbdeff7') in 0.009164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Rolling_Hills01_Heightmap.tif
+  artifactKey: Guid(ef3a42474254efb44a572b52d3ac06cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Rolling_Hills01_Heightmap.tif using Guid(ef3a42474254efb44a572b52d3ac06cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a697df57b8ff5a80ff17ae53d7b1705a') in 0.009129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_C_BaseColor.tif
+  artifactKey: Guid(8e255f57d15705e488d4db5425239501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_C_BaseColor.tif using Guid(8e255f57d15705e488d4db5425239501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c0ca5134bb188379285fbb5ddede48a7') in 0.007183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Materials/Bush_A_MaskMap.mat
+  artifactKey: Guid(db4d7907dcb90470ab490eb18a57ccc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Materials/Bush_A_MaskMap.mat using Guid(db4d7907dcb90470ab490eb18a57ccc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '47dc13ca0fa8484a47a79fc648fc24a0') in 0.004656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_A_BaseColor.tif
+  artifactKey: Guid(b39336e67b68db14aa4a8a7f883e5aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_A_BaseColor.tif using Guid(b39336e67b68db14aa4a8a7f883e5aff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'da0c46fb32b64c8c0315232128b7a2f2') in 0.005640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.398976 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain03_Heightmap.tif
+  artifactKey: Guid(eb8981774e4509b4ba09dcceaf8814d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain03_Heightmap.tif using Guid(eb8981774e4509b4ba09dcceaf8814d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f89894d4597157fa221ff93f66f657a4') in 0.011739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Sand_MaskMap.tif
+  artifactKey: Guid(32c701976955001429b200f33da0d4a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Sand_MaskMap.tif using Guid(32c701976955001429b200f33da0d4a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab02a19be88e39491d4bd3d94ed2cdb7') in 0.011553 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Pebbles_C_TerrainLayer.terrainlayer
+  artifactKey: Guid(a579e897aa6ba004ab0e04fa3053263a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Pebbles_C_TerrainLayer.terrainlayer using Guid(a579e897aa6ba004ab0e04fa3053263a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '727586072263784dd50f397e17a5fcc8') in 0.013488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Volcano02_Brush.brush
+  artifactKey: Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Volcano02_Brush.brush using Guid(5bcc5a77fc677c24c98eb188064d3acd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8fb1c23eca9ed3bec303614e1ecde6da') in 0.006361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/Plant_D.prefab
+  artifactKey: Guid(8569bec78272c564ab74ca5b8a4762f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/Plant_D.prefab using Guid(8569bec78272c564ab74ca5b8a4762f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b7759c0d2caaa2db137ed2eb8240652') in 0.003433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Fern_MaskMap.tif
+  artifactKey: Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Fern_MaskMap.tif using Guid(d5a7b708862dd0a449b4bccbefdd2335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '08dff32ca7f0c65531369166af76dc30') in 0.006903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Heather_A_MaskMap.tif
+  artifactKey: Guid(2acdbd081c9f4e7448a4885ecf259aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Heather_A_MaskMap.tif using Guid(2acdbd081c9f4e7448a4885ecf259aaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a681e5223c3f9966a46a64e959dea58') in 0.004982 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain10_Heightmap.tiff
+  artifactKey: Guid(54acc9c7b90e7844c8110362dbe968ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain10_Heightmap.tiff using Guid(54acc9c7b90e7844c8110362dbe968ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c9d1bdc6443ccead3e7fc5b52768576') in 0.011606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain01_Brush.brush
+  artifactKey: Guid(87bcc148df475664181f323cf3b45e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain01_Brush.brush using Guid(87bcc148df475664181f323cf3b45e93) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd78863a3ac6a886d4d39a5c59171246e') in 0.007680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/ShaderGraphs/Subgraphs/Wind.shadersubgraph
+  artifactKey: Guid(43040687acbef31438764c0a962e143f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/ShaderGraphs/Subgraphs/Wind.shadersubgraph using Guid(43040687acbef31438764c0a962e143f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ce64c463ddb813a7e3ce815adf7fa3c6') in 0.003873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/ShaderGraphs/Subgraphs/AnimatedGrassPhase.shadersubgraph
+  artifactKey: Guid(baa12ab73b962474eb9afea9483e1f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/ShaderGraphs/Subgraphs/AnimatedGrassPhase.shadersubgraph using Guid(baa12ab73b962474eb9afea9483e1f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c41079504840b092b6921edfa4242894') in 0.003881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.350447 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge03_Heightmap.tif
+  artifactKey: Guid(b1dadb884e92879469e470aba88f0096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge03_Heightmap.tif using Guid(b1dadb884e92879469e470aba88f0096) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd927b1488d87e35a41906f34e6be5c1d') in 0.012106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/BushDry_Thickness.tif
+  artifactKey: Guid(100a50e8b1d0bc04b95bc2f03cb760db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/BushDry_Thickness.tif using Guid(100a50e8b1d0bc04b95bc2f03cb760db) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f4e39bae46e01b820a968e8afac8a466') in 0.005838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon03_Brush.brush
+  artifactKey: Guid(d4e29f095247ea040aabee8a6cb3b010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon03_Brush.brush using Guid(d4e29f095247ea040aabee8a6cb3b010) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7f80309762a8d32e15da04fcf20abc51') in 0.004332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Muddy_TerrainLayer.terrainlayer
+  artifactKey: Guid(091511b8c4f042c4082a4d5af73e92c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Muddy_TerrainLayer.terrainlayer using Guid(091511b8c4f042c4082a4d5af73e92c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b8e3cf467b7de09f85fad0701c7afc6') in 0.011979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/GrassDry_B.asset
+  artifactKey: Guid(34620cf8cdb76ba4b9af2acb627f7846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/GrassDry_B.asset using Guid(34620cf8cdb76ba4b9af2acb627f7846) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '56a1d3236d94b27ef6a0ed33f1bcb5d5') in 0.002035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Materials/Grass_C.asset
+  artifactKey: Guid(d3f698d8d13edc2478d19e143b436434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Materials/Grass_C.asset using Guid(d3f698d8d13edc2478d19e143b436434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '808a058816f51961256dcc44b5cc3dcc') in 0.008073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope03_Brush.brush
+  artifactKey: Guid(4bbbe659961263d4390b9322f0328fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope03_Brush.brush using Guid(4bbbe659961263d4390b9322f0328fe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '88ae85257b44668e764432790d1ede6d') in 0.006620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Heather_A_BaseColor.tif
+  artifactKey: Guid(deb3a5099f3fc81408def7e176a5f5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Heather_A_BaseColor.tif using Guid(deb3a5099f3fc81408def7e176a5f5de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b8d7ccf297126baa93c3945f430ef05f') in 0.005423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Tidal_Pools_MaskMap.tif
+  artifactKey: Guid(e39c4b98a4756b043a23fb5b81e7b25a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Tidal_Pools_MaskMap.tif using Guid(e39c4b98a4756b043a23fb5b81e7b25a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd8f4467e934aaedccd9cd3a3c243bf45') in 0.008760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/GodRay_01 1.prefab
+  artifactKey: Guid(dbf55174092a60e47ac6486eee411288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/GodRay_01 1.prefab using Guid(dbf55174092a60e47ac6486eee411288) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3ba1eba9427f1a8737aedd587457da0d') in 0.529943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon02_Brush.brush
+  artifactKey: Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Canyon02_Brush.brush using Guid(7ddc1e59f6e82cc4693b55b0badb4aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8cec283fd0319043ac90c4b763c66d4e') in 0.003184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat
+  artifactKey: Guid(ce7f710feeb678b41b9487e80c4b85dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_White.mat using Guid(ce7f710feeb678b41b9487e80c4b85dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '778fde9f3b5ac248c3946c035d84b0b1') in 0.005426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Scenes/TropicalEnvironmentLite_Demo.unity
+  artifactKey: Guid(9c63f33617853404eb84883617221486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Scenes/TropicalEnvironmentLite_Demo.unity using Guid(9c63f33617853404eb84883617221486) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '572378255c3d37b76c70ad935fe7ec2b') in 0.001778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat
+  artifactKey: Guid(e4d5a3e7cf15bcd4a919ec0bb9c42188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Black.mat using Guid(e4d5a3e7cf15bcd4a919ec0bb9c42188) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '10df48a68e7c0deaed260c37d26f2fed') in 0.003589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Rollinghills01_Brush.brush
+  artifactKey: Guid(9bcbad10823d47140bc0c90bfc339f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Rollinghills01_Brush.brush using Guid(9bcbad10823d47140bc0c90bfc339f4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '14ae23e76678aed5238ec51d399bfe43') in 0.003406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/GodRay_01 1.prefab
+  artifactKey: Guid(dbf55174092a60e47ac6486eee411288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/GodRay_01 1.prefab using Guid(dbf55174092a60e47ac6486eee411288) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bf0bde0c4dd6a7c4ed24f444e07411cb') in 0.003034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Plant_MaskMap.tif
+  artifactKey: Guid(58f96e5085ad49449a678cbc76949e47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Plant_MaskMap.tif using Guid(58f96e5085ad49449a678cbc76949e47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd2b2e2fe84331b4d6d2e1b10fac1409b') in 0.006442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Plant_01.fbx
+  artifactKey: Guid(6fe3784b6fa1f4841a127220269aaf6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Plant_01.fbx using Guid(6fe3784b6fa1f4841a127220269aaf6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '05c5f0e7cc5d6c17b4c168d960fd5bb1') in 0.018216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat
+  artifactKey: Guid(6bc0b76677d86c84bae40c11173940a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmWrangler_White.mat using Guid(6bc0b76677d86c84bae40c11173940a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c4f30d9ddbea64e5815b8bf0ef1f996b') in 0.004195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Grass.png
+  artifactKey: Guid(89bc11f1dd883784bb12d8a71f59a54e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Grass.png using Guid(89bc11f1dd883784bb12d8a71f59a54e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd5bdcf675a4ce09fb51ed2423a76332c') in 0.007196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Terrain/TE_Lite_Terrain.asset
+  artifactKey: Guid(f254063387909f543a0080317d33e58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Terrain/TE_Lite_Terrain.asset using Guid(f254063387909f543a0080317d33e58d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '36d502095194419ae7e91c2b6ccf8b88') in 0.010332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PalmTree_05.prefab
+  artifactKey: Guid(3d6ee73ce0cc2f34fb0943aee27b056a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PalmTree_05.prefab using Guid(3d6ee73ce0cc2f34fb0943aee27b056a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '88dcb64382440d45e0b099d895b051e5') in 0.003038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Scenes/TropicalEnvironmentLite_Overview.unity
+  artifactKey: Guid(589c56df49beb804a8e62f1ffd581293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Scenes/TropicalEnvironmentLite_Overview.unity using Guid(589c56df49beb804a8e62f1ffd581293) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '846473c554065b3ded12a97e4ad95c73') in 0.001661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab
+  artifactKey: Guid(13613d48b05008747b336f4a0568a938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab using Guid(13613d48b05008747b336f4a0568a938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5669d9ab8e6c264a2131f82bedc6d000') in 0.002293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Sand_BaseColor.tif
+  artifactKey: Guid(e18ae12a8286a594bae0eb036ce9bc12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Sand_BaseColor.tif using Guid(e18ae12a8286a594bae0eb036ce9bc12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '61d56193aaa332ae9d284843a97e107a') in 0.006060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Plank_01.fbx
+  artifactKey: Guid(f9dc45da0de6c2c46bf15b7bb9429452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Plank_01.fbx using Guid(f9dc45da0de6c2c46bf15b7bb9429452) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd88aa8a6c531900101a353757edcb580') in 0.007448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat
+  artifactKey: Guid(eb10910f153c6cc4585a14616bd3d32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_Doctor_Brown.mat using Guid(eb10910f153c6cc4585a14616bd3d32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd13d2e7a4c5ce0de1264bd661cbe63c0') in 0.003617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat
+  artifactKey: Guid(dea8da5c59fb63f43bdae7f3ae6f83e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_Brown.mat using Guid(dea8da5c59fb63f43bdae7f3ae6f83e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f49b57acda710913fba4367786ba5f88') in 0.003512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_BG.mat
+  artifactKey: Guid(b3f65f6ef358d104d8fcad8b2e4ca086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_BG.mat using Guid(b3f65f6ef358d104d8fcad8b2e4ca086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '858f5609e9c691e62b362a26969360cd') in 0.002549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Terrain/TerrainLayer/Sand_Lite.terrainlayer
+  artifactKey: Guid(ab2a3f1fd5b756f46a51bd8666d53529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Terrain/TerrainLayer/Sand_Lite.terrainlayer using Guid(ab2a3f1fd5b756f46a51bd8666d53529) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '47b89ae3509a9af4c0c1dc357d9744b5') in 0.005912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat
+  artifactKey: Guid(4ffb04dab08f3bc46b4bae49c8873e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_Farmer_Black.mat using Guid(4ffb04dab08f3bc46b4bae49c8873e63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7a6c9a80bc4ceca1cd0e37216510d140') in 0.003489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/PalmTree_05.fbx
+  artifactKey: Guid(cfe9405cef691a84bb649ca2d5fbaed2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/PalmTree_05.fbx using Guid(cfe9405cef691a84bb649ca2d5fbaed2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '40bf228390f7f7b8212edfc06e7c85a7') in 0.007186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat
+  artifactKey: Guid(3d7b59a287cb2c444baeeaaaba1f7468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_White.mat using Guid(3d7b59a287cb2c444baeeaaaba1f7468) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1070a4fa5540efb89144aa10ea2e953e') in 0.005200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat
+  artifactKey: Guid(cc347604e888272408e91697907628e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersDaughter_Brown.mat using Guid(cc347604e888272408e91697907628e5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '75ad5bad5ed6126c9df6071a3b015452') in 0.003393 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/BushDry_A.prefab
+  artifactKey: Guid(176a42107ce66c44aa74a67424591597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/BushDry_A.prefab using Guid(176a42107ce66c44aa74a67424591597) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7364378923c63e406e66a0b57d19ae6b') in 0.003569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Grass_A.asset
+  artifactKey: Guid(c8542799e804ef04eb35ba93777008a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Grass_A.asset using Guid(c8542799e804ef04eb35ba93777008a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ede5da00fd6a09868318d254e0de44ee') in 0.001568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PirateSword_01.prefab
+  artifactKey: Guid(dbd2a57d08b34234fa124d3add256cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PirateSword_01.prefab using Guid(dbd2a57d08b34234fa124d3add256cf5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a32884c1fa4f684b2888122027d0a547') in 0.002392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/TropicalEnvironmentLite_2021.3.0_URP_1.0.unitypackage
+  artifactKey: Guid(00fa756fbcb176c49b5d2253c77cccac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/TropicalEnvironmentLite_2021.3.0_URP_1.0.unitypackage using Guid(00fa756fbcb176c49b5d2253c77cccac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f55e02eb15196dab3254aa6450b16aa8') in 0.002048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat
+  artifactKey: Guid(94bc80c9a69c60e40a7f3e87548db65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimpleFarmer_FarmersWife_White.mat using Guid(94bc80c9a69c60e40a7f3e87548db65e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '49d72e4457c2f0bb123bbce6d8de4cf3') in 0.005107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab
+  artifactKey: Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Barrel_04.prefab using Guid(ce66a822c9a3f614fbdf2bc93393f17e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '50c790081f566504718a0278bfd21b85') in 0.002712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Grass_B_TerrainLayer.terrainlayer
+  artifactKey: Guid(bd1fcb10d2c5b5d4ba6e01a34e4735be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Grass_B_TerrainLayer.terrainlayer using Guid(bd1fcb10d2c5b5d4ba6e01a34e4735be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '123a3aa6657928b7b62cc90cac1c7977') in 0.009980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat
+  artifactKey: Guid(95db71c87bb7ddc43a6594071030bc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Course Library/_Source_Files/Materials/SimplePeople_Waitress_Black.mat using Guid(95db71c87bb7ddc43a6594071030bc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '969c55b9e0f64b2e48eea4b588124ee7') in 0.003663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Soft_Round_Brush.brush
+  artifactKey: Guid(a757b66aa1cbcbe4595dd37a3729ba24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Soft_Round_Brush.brush using Guid(a757b66aa1cbcbe4595dd37a3729ba24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54a4bb27399a14843de7b3f9609bfd55') in 0.002279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/GrassDry_MaskMap.tif
+  artifactKey: Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/GrassDry_MaskMap.tif using Guid(d3cf4500414007c4c895584cfcf1fbc3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4455b90b86166f8f95e213d966ad93b8') in 0.005226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge01_Heightmap.tif
+  artifactKey: Guid(2093015066086b94e9636a0e1f1344ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge01_Heightmap.tif using Guid(2093015066086b94e9636a0e1f1344ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2d0dbf04f156f0a6a2a3c4e4368b260e') in 0.011888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.097466 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Heather_MaskMap.tif
+  artifactKey: Guid(240efe9002d9e7a44b9f2a592f357102) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Heather_MaskMap.tif using Guid(240efe9002d9e7a44b9f2a592f357102) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '03f8f484042eff9a4db4ef413d9ccb66') in 0.006704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Hills02_Heightmap.tiff
+  artifactKey: Guid(0ae4396d11e334e4daf11922ac1f175f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Hills02_Heightmap.tiff using Guid(0ae4396d11e334e4daf11922ac1f175f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6cbbf52aed1640f3c33b913f07d941a3') in 0.012002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_A_Normal.tif
+  artifactKey: Guid(00eadd7ea2cbbf14ca338babf410bdf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_A_Normal.tif using Guid(00eadd7ea2cbbf14ca338babf410bdf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b10e1904d6c9a6de1118087cee1b87db') in 0.008870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Heather_BaseColor.tif
+  artifactKey: Guid(87735acf16005914dba9087627517773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Heather_BaseColor.tif using Guid(87735acf16005914dba9087627517773) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6cf55eaae726a0b60f67e84a312990cb') in 0.005908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Plant_Thickness.tif
+  artifactKey: Guid(eb0c8b2f7b0da9944ae8e4156f2ec349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Plant_Thickness.tif using Guid(eb0c8b2f7b0da9944ae8e4156f2ec349) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b5a6d0d1332f1ccbbdddf332b7e24ff4') in 0.006451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/Grass_C.prefab
+  artifactKey: Guid(4c72217d56dcb6749a897a75cad1f34e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/Grass_C.prefab using Guid(4c72217d56dcb6749a897a75cad1f34e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'db744b27a3150cfdc208986b6cf63887') in 0.003405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Snow_MaskMap.tif
+  artifactKey: Guid(5d46f74cdeedd7941ba8cd7cb7ebb40c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Snow_MaskMap.tif using Guid(5d46f74cdeedd7941ba8cd7cb7ebb40c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9a6c5c80636d2eaa475b2ae1508a3516') in 0.006284 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Materials/Bush.asset
+  artifactKey: Guid(a48ad8aadb27f004390383c89862e6f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Materials/Bush.asset using Guid(a48ad8aadb27f004390383c89862e6f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0f835ca5bdfeb159b6405038ccb2345a') in 0.006065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Rock_BaseColor.tif
+  artifactKey: Guid(7e35234e281d141418972228ee38415e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Rock_BaseColor.tif using Guid(7e35234e281d141418972228ee38415e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1a4774fe61b4ab415ad63dd7e22d00f1') in 0.011651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/Plant_A.prefab
+  artifactKey: Guid(6d6ea10f03c4d7245a66d6515bf1bc6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/Plant_A.prefab using Guid(6d6ea10f03c4d7245a66d6515bf1bc6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f8281dcd6cf3fa5d4d695b69f2ef4f88') in 0.004829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Muddy_MaskMap.tif
+  artifactKey: Guid(69ac4ffc59a4b194c9f03bec38be51ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Muddy_MaskMap.tif using Guid(69ac4ffc59a4b194c9f03bec38be51ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'da926887abc25c05f5cf6d1f449b5c7c') in 0.007920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain11_Brush.brush
+  artifactKey: Guid(3a23908d07382b448b4dbd8adef2c4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain11_Brush.brush using Guid(3a23908d07382b448b4dbd8adef2c4a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7eb137a2759a974d27b26ccc3291ada8') in 0.008178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/BushDry_B.prefab
+  artifactKey: Guid(054bf5cf244ff2e4083cbf8eca205cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/BushDry_B.prefab using Guid(054bf5cf244ff2e4083cbf8eca205cf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '03597933bbba04895c4afee29849e5de') in 0.003727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Island01_Brush.brush
+  artifactKey: Guid(52ed55fadd8d2b34cb0f9f08adb04a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Island01_Brush.brush using Guid(52ed55fadd8d2b34cb0f9f08adb04a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c4905d4a714144f882d8502f81b51fed') in 0.003460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Hills01_Brush.brush
+  artifactKey: Guid(df5900f192ad71b4c9f0d3b57daadc1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Hills01_Brush.brush using Guid(df5900f192ad71b4c9f0d3b57daadc1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '05ace9aa5d35035a72ab62cd2664bb74') in 0.005448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Prefabs/Fern_A.prefab
+  artifactKey: Guid(6629880e46886724fa0107d3035304e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Prefabs/Fern_A.prefab using Guid(6629880e46886724fa0107d3035304e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7d86e4b2436b209c6ecafb97ceb9aba9') in 0.004871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge06_Brush.brush
+  artifactKey: Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge06_Brush.brush using Guid(24a7eabe2ad91f84fbf3a7ecf7b532b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '297c0273872ab5eb206bfa05fc5949e6') in 0.008113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Tidal_Pools_TerrainLayer.terrainlayer
+  artifactKey: Guid(b5fcb6edb24b4544dbcf0dad9462ee5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Tidal_Pools_TerrainLayer.terrainlayer using Guid(b5fcb6edb24b4544dbcf0dad9462ee5b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '70c874a654e0de9eab0c8b99db93cba7') in 0.007656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Plant_A.asset
+  artifactKey: Guid(d427b65f0342fe84fa77dabe420757ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Plant_A.asset using Guid(d427b65f0342fe84fa77dabe420757ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f65816dd9edee4cf1b093f424408ed5c') in 0.001791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Materials/Sand_BaseColor.mat
+  artifactKey: Guid(9d118541e757d4222bada018d123f9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Materials/Sand_BaseColor.mat using Guid(9d118541e757d4222bada018d123f9a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8a55d2015d2f4dc1eae853cbd7319bae') in 0.003435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_Soil_BaseColor.tif
+  artifactKey: Guid(bde7423cb35c64746b6b24c63040dcb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_Soil_BaseColor.tif using Guid(bde7423cb35c64746b6b24c63040dcb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a1938188d61e9eafea9b35ccee55ffa0') in 0.007042 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon05_Heightmap.tif
+  artifactKey: Guid(3771b24b1afb4bd4d86e3ba795b65a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon05_Heightmap.tif using Guid(3771b24b1afb4bd4d86e3ba795b65a32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ab0b9cd5ba499c37a80a627444991497') in 0.007454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_B_Normal.tif
+  artifactKey: Guid(abaa3d4f433df074389559003412235d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_B_Normal.tif using Guid(abaa3d4f433df074389559003412235d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '89ff3dbbd156dd286b91ccc80599545e') in 0.006557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Materials/Bush_A_BaseColor.mat
+  artifactKey: Guid(6b541bec5ef4e4efeb2ab95e021f0802) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Materials/Bush_A_BaseColor.mat using Guid(6b541bec5ef4e4efeb2ab95e021f0802) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '26b1a5821fb6659e40c09bab2f18016d') in 0.004038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon03_Heightmap.tif
+  artifactKey: Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon03_Heightmap.tif using Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ac10c0b48cc5477e2efd919915f63cc4') in 0.005537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Grass_D.asset
+  artifactKey: Guid(15afb6df1db838d409d503b01fb48944) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Grass_D.asset using Guid(15afb6df1db838d409d503b01fb48944) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3980e0ced4dce11674110cb3ba6bf294') in 0.001826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/BushDry_B.asset
+  artifactKey: Guid(8d68c191594d5a24baee81cc22acf55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/BushDry_B.asset using Guid(8d68c191594d5a24baee81cc22acf55b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ba22d1ce0e048e44f2603b939c54fb9d') in 0.001678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Pebbles_A_TerrainLayer.terrainlayer
+  artifactKey: Guid(a4f389caed25e6241b38ba88a286c911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainLayers/Pebbles_A_TerrainLayer.terrainlayer using Guid(a4f389caed25e6241b38ba88a286c911) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b9f3c99e6af5d368160516269a2ec65') in 0.006611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope04_Brush.brush
+  artifactKey: Guid(da7c572fc46d2a345963c4775ee9dc60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope04_Brush.brush using Guid(da7c572fc46d2a345963c4775ee9dc60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3e45da283dc1a963df2b05db390a0b15') in 0.007833 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/BushDry_A.asset
+  artifactKey: Guid(3b8f934b79237034b816dfcc8369e9fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/BushDry_A.asset using Guid(3b8f934b79237034b816dfcc8369e9fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e7314643cedc7f3567d36bc1fb1e40a7') in 0.002200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_Soil_MaskMap.tif
+  artifactKey: Guid(61a6ad6be0be2b444addf88107c0fda2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Grass_Soil_MaskMap.tif using Guid(61a6ad6be0be2b444addf88107c0fda2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9133c5f3a976992702e089aa96257a7a') in 0.008054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge_Edge01_Heightmap.tif
+  artifactKey: Guid(b38901ae2e7149540aaa7fe2697aba3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge_Edge01_Heightmap.tif using Guid(b38901ae2e7149540aaa7fe2697aba3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '777885937925585e72c38ae5d1aea374') in 0.005349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Soft_Peaks01_Heightmap.tif
+  artifactKey: Guid(adfba81bdb8d30048bbea4ad595dbab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Soft_Peaks01_Heightmap.tif using Guid(adfba81bdb8d30048bbea4ad595dbab7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '364ed50cafae66832dff1585f071ea51') in 0.007910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Clouds_Heightmap.tif
+  artifactKey: Guid(791ebe8a3d329b34ca7dc4616ec3cd34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Clouds_Heightmap.tif using Guid(791ebe8a3d329b34ca7dc4616ec3cd34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2b9c438193ce7c8728886301a2a598b6') in 0.005033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain03_Brush.brush
+  artifactKey: Guid(f11a285f166a0f6499471bc2b3deaefb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain03_Brush.brush using Guid(f11a285f166a0f6499471bc2b3deaefb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '210d8396e866d67557ace6f3fb0fec80') in 0.003039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Grass_B.asset
+  artifactKey: Guid(255522b0d4257624f93e110d4a6135ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Grass_B.asset using Guid(255522b0d4257624f93e110d4a6135ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '542282670d67b336ad2d71fcbf50198a') in 0.001797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge05_Brush.brush
+  artifactKey: Guid(014d61beb3975e849b26bc42fbf17b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge05_Brush.brush using Guid(014d61beb3975e849b26bc42fbf17b42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '447005512dd17239b653988e5a614cc8') in 0.005257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_C_MaskMap.tif
+  artifactKey: Guid(37bf2efdabb269f4b891344af9233d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Pebbles_C_MaskMap.tif using Guid(37bf2efdabb269f4b891344af9233d9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd4909a09a1a900be67eeb190c3fca253') in 0.007862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain04_Brush.brush
+  artifactKey: Guid(84399f7e9c8b199478532ded97f1ed9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Mountain04_Brush.brush using Guid(84399f7e9c8b199478532ded97f1ed9b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2ba0c1049787713ef454f8743622e027') in 0.005495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Muddy_Normal.tif
+  artifactKey: Guid(86f7d07dde38b154188fd60359df541e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Muddy_Normal.tif using Guid(86f7d07dde38b154188fd60359df541e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4b84c0881be83a4e2887bc63be568220') in 0.006700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Flat_Mountain01_Heightmap.tif
+  artifactKey: Guid(d2a704d1b2d8ad948aab36a028a684b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Flat_Mountain01_Heightmap.tif using Guid(d2a704d1b2d8ad948aab36a028a684b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f014933e7d80b867af3df0cde3d0875d') in 0.007741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope02_Brush.brush
+  artifactKey: Guid(6e325b7abaea45841a5bcb6c09fde762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Slope02_Brush.brush using Guid(6e325b7abaea45841a5bcb6c09fde762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '949c2748a9d3f45640281f532e743e8e') in 0.005080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/BushDry_Normal.tif
+  artifactKey: Guid(03fe3ff010bcfb3418536e2f7896257b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/BushDry_Normal.tif using Guid(03fe3ff010bcfb3418536e2f7896257b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '660951db6bb98e9aeba8efa9c69deb8e') in 0.006568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Details/Materials/Bush_A_BaseColor 2.mat
+  artifactKey: Guid(9e323bdc06f014bf193c262d9c93e345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Details/Materials/Bush_A_BaseColor 2.mat using Guid(9e323bdc06f014bf193c262d9c93e345) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '345fa1e266722c49be693fb8bd2256a4') in 0.002984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/README.pdf
+  artifactKey: Guid(19f8f1dbc6e0e2a45aa2e518452ffa62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/README.pdf using Guid(19f8f1dbc6e0e2a45aa2e518452ffa62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd4782196c2dc3398ab923b5980045796') in 0.001363 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon01_Heightmap.tif
+  artifactKey: Guid(903360ef543b50449ae74931c4fddc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Canyon01_Heightmap.tif using Guid(903360ef543b50449ae74931c4fddc2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9cc356b9a8444598c609cb99b046db50') in 0.004720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge02_Heightmap.tif
+  artifactKey: Guid(753f8aefff7f53945bb09d75656ba8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Ridge02_Heightmap.tif using Guid(753f8aefff7f53945bb09d75656ba8de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '64ab10c333262ef582fe70925bc0301d') in 0.009047 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Rock_Normal.tif
+  artifactKey: Guid(d39a1b9e5d5c7b9499f579fa5c70a2a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Terrain/Rock_Normal.tif using Guid(d39a1b9e5d5c7b9499f579fa5c70a2a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e95cf1cf1c19f1220780b755184198ec') in 0.008652 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain11_Heightmap.tiff
+  artifactKey: Guid(70e652ab807bd5c4ca36dc57a1ed6339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Textures/Heightmaps/Mountain11_Heightmap.tiff using Guid(70e652ab807bd5c4ca36dc57a1ed6339) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7239f27ca129ce57cff9b34db6a9e5dc') in 0.007318 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/Models/Fern_C.asset
+  artifactKey: Guid(19f3cdde7d5104c4da897ac17045ddfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/Models/Fern_C.asset using Guid(19f3cdde7d5104c4da897ac17045ddfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d1a4e0bbe4c69bb46ed82b4adbb2a8c') in 0.001632 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge01_Brush.brush
+  artifactKey: Guid(776f9b3da89f9394cac9a53aab9a5eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Ridge01_Brush.brush using Guid(776f9b3da89f9394cac9a53aab9a5eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '254c202925b276d82875e228003546ee') in 0.006483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Hills02_Brush.brush
+  artifactKey: Guid(f31e3331ec5f6954e8c6ac51cc3d8c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/TerrainSampleAssets/TerrainBrushes/Terrainstamp_Hills02_Brush.brush using Guid(f31e3331ec5f6954e8c6ac51cc3d8c79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '265d0270e8f60239254b1925adfaab22') in 0.005358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.670506 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PalmTree_05.prefab
+  artifactKey: Guid(3d6ee73ce0cc2f34fb0943aee27b056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PalmTree_05.prefab using Guid(3d6ee73ce0cc2f34fb0943aee27b056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '652fc3d15e35ec6e2ef743c853ad3af4') in 0.017216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.423404 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_MAIN.mat
+  artifactKey: Guid(fd0f411072abac7438aba85e685bbb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Materials/TropicalEnvironmentLite_MAIN.mat using Guid(fd0f411072abac7438aba85e685bbb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6114cbb966ca71b323787121470a85ee') in 0.002923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.895196 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Pier_02.prefab
+  artifactKey: Guid(c4ce77fae258db1419fe426be4a51bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Pier_02.prefab using Guid(c4ce77fae258db1419fe426be4a51bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8d41a3e3cde97baf75793d2e612b84d6') in 0.008326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 1.162625 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PirateSword_01.prefab
+  artifactKey: Guid(dbd2a57d08b34234fa124d3add256cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/PirateSword_01.prefab using Guid(dbd2a57d08b34234fa124d3add256cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '768a7e9b09b2ea991ffee2f0ed97467a') in 0.009767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.815027 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Plant_01.prefab
+  artifactKey: Guid(cb8023970bbd62147ba1b145685c0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Plant_01.prefab using Guid(cb8023970bbd62147ba1b145685c0a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ebd74dc2da1d6db567a0d05dd4ec488') in 0.007597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time since last request: 1.010906 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Rock_01.prefab
+  artifactKey: Guid(c8a2815ff94c8cf4c817008d9af097ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Rock_01.prefab using Guid(c8a2815ff94c8cf4c817008d9af097ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '486b9e887b0e7ba1ce38164f82972c84') in 0.008804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.628832 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Tent_01.prefab
+  artifactKey: Guid(a79f26c2c26a872468e9cc5925298ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Tent_01.prefab using Guid(a79f26c2c26a872468e9cc5925298ae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '05e2777e64cf2bcf91e2b0ce0f869625') in 0.008407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.794845 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab
+  artifactKey: Guid(13613d48b05008747b336f4a0568a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Prefabs/Skull_01.prefab using Guid(13613d48b05008747b336f4a0568a938) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '93b9b92dfad8ed1f5bed62c14917e6b0') in 0.008467 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 39.055985 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Scenes
+  artifactKey: Guid(74ca845ab453cc54ca8f5bfebba00693) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Scenes using Guid(74ca845ab453cc54ca8f5bfebba00693) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'bdfe4f46dfce1042817f16add7dc18d2') in 0.000539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 87.755982 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f0cb3299daa5739517a86697ef86767a') in 0.029289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 4.209889 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '09659c09a09de3f7a931696a2edd8d43') in 0.008094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 5.232449 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f50b77279eda30a0290e693dc1016f29') in 0.013125 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 2.039805 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ad9cdc5f4ec9bcbe798f58477b3e0f5') in 0.007844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 7.277243 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '43fcfa83814d19a1d78532459b551b26') in 0.006070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 14.295980 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8b7e6622477ac1dd561ac93dd739deb7') in 0.011762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 4.245059 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5d398f801308aa6170350ebb8442a9aa') in 0.010942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 10.046423 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '72fdf517e613215a9e408dd712746a56') in 0.011825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 25.472675 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '39388e25e7f791a1d8beb90d9ba40dbf') in 0.011206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 4.433874 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8a8046af347eeebb282dc50bfabd3a42') in 0.006234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 5.036489 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '859aea8f62323bb4d23de9089d91a796') in 0.008936 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 5.645771 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9524b50d2b6f6932daa152a004812efe') in 0.008697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 3.021246 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '07126f1ad6512ff99ea89f8a8b01910c') in 0.007377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 2.608703 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54456ffd647eda29d28fd39f48a7b50d') in 0.012179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x334987000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.243 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.774 seconds
+Domain Reload Profiling: 1017ms
+	BeginReloadAssembly (99ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (12ms)
+	LoadAllAssembliesAndSetupDomain (106ms)
+		LoadAssemblies (121ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (219ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (34ms)
+			ProcessInitializeOnLoadAttributes (149ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (344.4 KB). Loaded Objects now: 5405.
+Memory consumption went from 194.6 MB to 194.3 MB.
+Total: 2.536417 ms (FindLiveObjects: 0.170917 ms CreateObjectMapping: 0.051791 ms MarkObjects: 2.193292 ms  DeleteObjects: 0.119833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 32.721250 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(26f09c98fefd6438783ffcede902f94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(26f09c98fefd6438783ffcede902f94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c39ad1a99d47d0f8a0fe963c7f3637db') in 0.133518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 122
+========================================================================
+Received Import Request.
+  Time since last request: 98.313087 seconds.
+  path: Assets/Prefabs/Enemy 2.prefab
+  artifactKey: Guid(74a025ec598df463fb47b279e5c14fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 2.prefab using Guid(74a025ec598df463fb47b279e5c14fc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e2a6b6f8c3716417a6624b699799a297') in 0.014003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 118.976578 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models
+  artifactKey: Guid(4aa655aa65a3c8a4c960e444ef67d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models using Guid(4aa655aa65a3c8a4c960e444ef67d0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9b5dd42e14bd78bf31998635c283c370') in 0.000391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.669664 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Barrel_04.fbx
+  artifactKey: Guid(05b8d3faa6a97524ea4a2260b027738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Barrel_04.fbx using Guid(05b8d3faa6a97524ea4a2260b027738f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '365f83e47cd4e8bf6a435f755ca365fb') in 0.039653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 2.466452 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Chest_01_2.fbx
+  artifactKey: Guid(2676e78c7f3295e4fafa83bedcf2c7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Chest_01_2.fbx using Guid(2676e78c7f3295e4fafa83bedcf2c7af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '714f3e9c424fd6904df2fd8bbea64162') in 0.031149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.423213 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Plant_01.fbx
+  artifactKey: Guid(6fe3784b6fa1f4841a127220269aaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Plant_01.fbx using Guid(6fe3784b6fa1f4841a127220269aaf6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '998c2cd02ce92f8e90fd5e6b2ecff508') in 0.042408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.427773 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Skull_01.fbx
+  artifactKey: Guid(f348a0f467f71dc49b39778f1b38e95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Models/Skull_01.fbx using Guid(f348a0f467f71dc49b39778f1b38e95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ddbb6f98e5d3dafd650b8fdbc18b6f3d') in 0.019918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 7.213007 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Terrain
+  artifactKey: Guid(ba41425e38dcdfd40876c761e116f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Terrain using Guid(ba41425e38dcdfd40876c761e116f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '585629b61bb703899083aae8d9011e25') in 0.000328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.203895 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures
+  artifactKey: Guid(fc9599f2911e4cf458e5df04efce8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures using Guid(fc9599f2911e4cf458e5df04efce8af4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5ca8e4fd93bd98fbc11748647674b33c') in 0.000289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.962663 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Texture_01.png
+  artifactKey: Guid(f7a888e855cafde4e95acf76bec4fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Texture_01.png using Guid(f7a888e855cafde4e95acf76bec4fd87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '173fed6f64c1e55ead195a3afde3ab72') in 0.010214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.227549 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Sand_Normal.png
+  artifactKey: Guid(86fee28dea7862e4bae99889b0682a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Sand_Normal.png using Guid(86fee28dea7862e4bae99889b0682a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '524d42c8aac3ff4ef0f77a0c9c7cf9c5') in 0.007156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.665484 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Sand.png
+  artifactKey: Guid(fc7c7d8754cf5de48a02a482c9adfa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Sand.png using Guid(fc7c7d8754cf5de48a02a482c9adfa86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cba7bc73a8819e9d45adecfb41e0a698') in 0.004760 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.655354 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Grass_Normal.png
+  artifactKey: Guid(172f31a5fb9f24a4085dfff56feb24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Grass_Normal.png using Guid(172f31a5fb9f24a4085dfff56feb24bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ef98edefbb1666530762965e02fa84cd') in 0.005880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.516724 seconds.
+  path: Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Grass.png
+  artifactKey: Guid(89bc11f1dd883784bb12d8a71f59a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Store/LowPolyTropicalEnvironment_LITE/Textures/TropicalEnvironmentLite_Grass.png using Guid(89bc11f1dd883784bb12d8a71f59a54e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6afe2095657204bafcdd6555f5c683a5') in 0.006144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Thread 0x16daef000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.214 seconds
+Native extension for OSXStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.727 seconds
+Domain Reload Profiling: 941ms
+	BeginReloadAssembly (77ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (10ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (114ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (727ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (206ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (33ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4737 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (344.5 KB). Loaded Objects now: 5452.
+Memory consumption went from 201.5 MB to 201.2 MB.
+Total: 2.392166 ms (FindLiveObjects: 0.186667 ms CreateObjectMapping: 0.047250 ms MarkObjects: 2.030208 ms  DeleteObjects: 0.127625 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 134.961078 seconds.
+  path: Assets/Course Library/Characters
+  artifactKey: Guid(2ab30495d8cc04868921a3eb89f430d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Characters using Guid(2ab30495d8cc04868921a3eb89f430d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ee6037444207f7ecbf3c299f328300ed') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.413706 seconds.
+  path: Assets/Course Library/Textures
+  artifactKey: Guid(33ab4ddf0ec584ea9be241571718b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures using Guid(33ab4ddf0ec584ea9be241571718b7da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '832baec260efc95075d068a186b2a82d') in 0.001029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.230000 seconds.
+  path: Assets/Course Library/Textures/Ground/Conrete.png
+  artifactKey: Guid(c7ea4fdbbfc0c3b4db23d327edee6111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Ground/Conrete.png using Guid(c7ea4fdbbfc0c3b4db23d327edee6111) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'efa0b91a4ab40f2892a3481fd335ec03') in 0.025211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.986813 seconds.
+  path: Assets/Course Library/Textures/Ground/Sand.png
+  artifactKey: Guid(1d77cecaeaa637a4386def007c1a1e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Ground/Sand.png using Guid(1d77cecaeaa637a4386def007c1a1e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '35ddebf9eefd2b381343bdd42d1a1967') in 0.005176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.650560 seconds.
+  path: Assets/Course Library/Textures/Ground/Gravel.png
+  artifactKey: Guid(6078022333aeb934e94f73ce8fe09e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Ground/Gravel.png using Guid(6078022333aeb934e94f73ce8fe09e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '63870fedf1a6998290809dff7bc9c647') in 0.007350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.766771 seconds.
+  path: Assets/Course Library/Textures/Ground/Grass.png
+  artifactKey: Guid(3cf543484d2fb7347b203b934a632fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Course Library/Textures/Ground/Grass.png using Guid(3cf543484d2fb7347b203b934a632fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4ccd898ebaa3b3cd444fbfe3a7cd98db') in 0.005139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
